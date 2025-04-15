@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyB1TKjOUqqZ6uhXTTmgTJxGFsNLLZdVWmM")
+genai.configure(api_key="")
 model_llm = genai.GenerativeModel('gemini-1.5-flash')
 
 # Reverse label map for interpretation
